@@ -1,0 +1,31 @@
+.intro {
+    position:relative;
+    z-index: 1;
+    @include clearfix;
+    .grid-2 {
+        width: calc((100% - #{$gutter-horizontal}) / 2 );        
+        float: left;
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal ;    
+        }
+    }
+    img {
+        width:100%
+    }
+    &__left {
+        &--p { 
+           // &:not(:last-child) {
+                margin-bottom: 3vh;
+           // } 
+            
+        }
+        &--heading {
+            margin-bottom: 5vh;
+        }
+        &--btn {
+            color:#222;
+            font-size: 110%;
+        }
+        float:left;
+    }
+}

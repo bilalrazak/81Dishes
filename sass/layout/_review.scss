@@ -1,0 +1,36 @@
+#Review {
+    margin-bottom: 5vh;
+    height: 105vh;
+}
+.review {
+    .part {
+        clip-path: polygon(0 18%, 100% 0, 100% 82%, 0 100%);
+        background-color: #585858;
+        height: 25vh;
+        padding:13% 5% 0% 5% ; 
+        margin-top: -3vh;
+    }
+    .rbox 
+    {
+        width: 94%;
+        padding:4%;
+        border:3px solid #eee;
+    }
+    textarea
+    {
+        display: block;
+        width:40vw;
+        padding: 2.5%;
+        background-color: #333;
+        border: 2px solid #eee;
+    }
+    .makeblock {
+        margin: 3vh 0;
+    }
+    input {
+        width:40vw;
+        padding: 2.5%;
+        background-color: #333;
+        border: 2px solid #eee;
+    }
+}

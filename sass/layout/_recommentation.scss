@@ -1,0 +1,54 @@
+.recom {
+    &__head {
+            .grid-search {
+                float:left;
+            }
+            &--search {
+                input {
+                    width: 75vw;
+                    height: 4.5vh;
+                    border:0;
+                    border-radius: 150px;
+                    text-align: center;
+                    background-color: #ddd;
+                    margin: 4vh 0 10vh 0;
+                    color:#222;
+                }
+                button {
+                    padding: 0;
+                    height: 4.5vh;
+                    width:20vh;
+                    background-color: #ddd;
+                    border-radius: 150px;
+                    color:#222;
+                }
+                
+           
+        }
+        margin-bottom: 5vh;
+    }
+    &__card {
+        padding:0;
+        &:not(:last-child) {
+            margin-bottom: 5vh;
+        }
+        @include clearfix;
+        .grid-3 {
+            width: calc((100% - 2*#{$gutter-card-2}) / 3);
+            background-color: #ddd;
+            float:left;
+            &:not(:last-child) {
+                margin-right: $gutter-card-2;
+            }
+
+        }
+        .card-2 {
+            &--img {
+                height:100%;
+                width:60%;
+            }
+        }
+        
+    }
+
+}

@@ -1,0 +1,42 @@
+.btn,
+.btn-search {
+    display: inline-block;
+    &:link,
+    &:visited {
+        margin: 0;
+        background-color: #eee;
+
+        transition: all .2s;
+    }
+
+    &:hover {
+        box-shadow: 0vh 1.5vh 2vh rgba(#ccc,0.15);
+        transform: translateY(-2px);
+    }
+    &:active {
+        box-shadow: 0vh .5vh 2vh rgba(#ccc,0.25);
+        transform: translateY(-1px);
+    }
+}
+.btn {
+    padding:2vh 3vh;
+    border-radius: 1vh;
+} 
+.btn-search{
+    &:link,
+    &:visited {
+        padding: 0;
+        height: 4.5vh;
+        width:20vh;
+        border-radius: 150px;
+    }
+}
+.btn-2 {
+    padding:.5vh 2.5%;
+    text-decoration:none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: $color-white-faded;
+    color: $color-grey-dark;
+
+}

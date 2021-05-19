@@ -1,0 +1,30 @@
+#Footer {
+    width: 100vw;
+    height: 25vh;
+    margin: 8vh 0 5vh 0;
+    background-color: #111;
+    color:$color-white-faded;
+    .row {
+        margin: 0 5vw;
+        border-bottom: 3px solid $color-white-faded;
+        height: 80%;
+    }
+    .sub {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+    }
+    
+    .icon-size {
+        height: 2.5vh;
+        margin: .5vw;
+    }
+    .part-2 {
+        text-align: center;
+        margin-top: 2.5vh;
+        a {
+            text-decoration: none;
+        }
+    }
+
+}

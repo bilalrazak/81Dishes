@@ -1,0 +1,31 @@
+
+.nav {
+    width:100vw;
+    height:5vh;
+    background-color: $color-grey-light;
+    box-shadow: 0px .1vh 1vh rgba($color: #eee, $alpha: 0.4);
+    position: sticky;
+    top:0;
+    z-index:10;
+    &__bar {
+        height:100%;
+        width:100%;
+        position: relative;
+        
+        &--left{
+            height: 100%;
+            position: absolute;
+            top:0;
+            left:0;
+            display: inline-block;
+
+        }
+        &--right{
+            text-align: right;
+            position: absolute;
+            top:1vh;
+            right:5vh;
+            display: inline-block;
+        }
+    }
+}

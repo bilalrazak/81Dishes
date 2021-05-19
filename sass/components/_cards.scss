@@ -1,0 +1,20 @@
+.card-1,
+.card-2 {
+    background-color: #ddd;
+    box-shadow: .5vw 1.3vh 1.5vh rgba(#eee,0.15);
+    border-radius: 2%;
+    transition: all .2s;
+    
+}
+.card-1 {
+    height: 60vh;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.card-2 {
+    height: 20vh;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
